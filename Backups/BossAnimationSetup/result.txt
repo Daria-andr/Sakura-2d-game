@@ -1,0 +1,1 @@
+Created 8 animation clips and 2-phase Animator. Connected to one boss; scene saved. Sprites: 36

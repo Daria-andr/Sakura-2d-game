@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: 2c76ef6d29d9ac449b9a3341a3bde9f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6127933174083704392
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_0"
+  - first:
+      213: 2463462204799583153
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_1"
+  - first:
+      213: 6662123700018795248
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_2"
+  - first:
+      213: -7778239847653236929
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_3"
+  - first:
+      213: 7145902324699657244
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_4"
+  - first:
+      213: -643766684123129412
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_5"
+  - first:
+      213: -5279144543203632576
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_6"
+  - first:
+      213: -5361093394333978433
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_7"
+  - first:
+      213: -5409482187446373784
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_8"
+  - first:
+      213: -3661117234502722286
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_9"
+  - first:
+      213: -3700934648317624382
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_10"
+  - first:
+      213: 4754178004944569730
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_11"
+  - first:
+      213: 5932862503032518786
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_12"
+  - first:
+      213: 6381924875051587382
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_13"
+  - first:
+      213: -8903468565907920385
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_14"
+  - first:
+      213: 8257128706863973728
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_15"
+  - first:
+      213: -1989309715052374983
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_16"
+  - first:
+      213: -4465820869991911522
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_17"
+  - first:
+      213: -5891329950795025085
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_18"
+  - first:
+      213: 8863857190736036784
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_19"
+  - first:
+      213: 505168511103262099
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_20"
+  - first:
+      213: -4103245149984501722
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_21"
+  - first:
+      213: 7099202209313817959
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_22"
+  - first:
+      213: 716430328645413767
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_23"
+  - first:
+      213: -515004727464175579
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_24"
+  - first:
+      213: -7141464554683381016
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_25"
+  - first:
+      213: 9080349576714528298
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_26"
+  - first:
+      213: 2189825828346330558
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_27"
+  - first:
+      213: 5236898474544810754
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_28"
+  - first:
+      213: 3476746655028939120
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_29"
+  - first:
+      213: -6243973632731108378
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_30"
+  - first:
+      213: -7001451359161438725
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_31"
+  - first:
+      213: 4137584591931764459
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_32"
+  - first:
+      213: 7389905509497900870
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_33"
+  - first:
+      213: 3272542345305581350
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_34"
+  - first:
+      213: -8867554884429339709
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_35"
+  - first:
+      213: -675980939774040764
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_36"
+  - first:
+      213: 6332735561166832822
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_37"
+  - first:
+      213: -739310786851652375
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_38"
+  - first:
+      213: 5415266410468978497
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_39"
+  - first:
+      213: 7400318082511739745
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_40"
+  - first:
+      213: -7761274878175089348
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_41"
+  - first:
+      213: 4065696065856256563
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_42"
+  - first:
+      213: -3186732060482223460
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_43"
+  - first:
+      213: 3078522626646159385
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_44"
+  - first:
+      213: 2720034436211318602
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_45"
+  - first:
+      213: -5168359287252710586
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_46"
+  - first:
+      213: 7635396055232182920
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_47"
+  - first:
+      213: 4634390077910635292
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_48"
+  - first:
+      213: -6736162539367934652
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_49"
+  - first:
+      213: 8493128837977896647
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_50"
+  - first:
+      213: -6426846748859183416
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_51"
+  - first:
+      213: 3466229440967041596
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_52"
+  - first:
+      213: 6703349998416757644
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_53"
+  - first:
+      213: -4505660579985359836
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_54"
+  - first:
+      213: -3052595650616760613
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_55"
+  - first:
+      213: 1027467996309007638
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_56"
+  - first:
+      213: -6346490222730714938
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_57"
+  - first:
+      213: 5280454654295773751
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_58"
+  - first:
+      213: -5317904980520304863
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_59"
+  - first:
+      213: -1098133429532975664
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_60"
+  - first:
+      213: -6103377871926891920
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_61"
+  - first:
+      213: -2779361476752123046
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_62"
+  - first:
+      213: 184111033450201800
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_63"
+  - first:
+      213: 3762789873855020654
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_64"
+  - first:
+      213: 565450194291644870
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_65"
+  - first:
+      213: -7273169798023811118
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_66"
+  - first:
+      213: 4538205697696628392
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_67"
+  - first:
+      213: 6314532954610500643
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_68"
+  - first:
+      213: -7668706301232380362
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_69"
+  - first:
+      213: -8836815343725533841
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_70"
+  - first:
+      213: -5065346946393972061
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_71"
+  - first:
+      213: -5430677116082324617
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_72"
+  - first:
+      213: 5052267349139673705
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_73"
+  - first:
+      213: -2403913161286719939
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_74"
+  - first:
+      213: 2486069463411427506
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_75"
+  - first:
+      213: -1997910052598640713
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_76"
+  - first:
+      213: -4512198817130619207
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_77"
+  - first:
+      213: -1147155931505446512
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_78"
+  - first:
+      213: -2031056255825402896
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_79"
+  - first:
+      213: 7571709958843145160
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_80"
+  - first:
+      213: -9099990044821973953
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_81"
+  - first:
+      213: -1000400469886738858
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_82"
+  - first:
+      213: -7967208090442532387
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_83"
+  - first:
+      213: 5138340830358289597
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_84"
+  - first:
+      213: 3476609451440547193
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_85"
+  - first:
+      213: -7651590823754094191
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_86"
+  - first:
+      213: 7980795508103822957
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_87"
+  - first:
+      213: -8697864244930497001
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_88"
+  - first:
+      213: -6717314903779671227
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_89"
+  - first:
+      213: -8408277759314693967
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_90"
+  - first:
+      213: -6981511225245752714
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_91"
+  - first:
+      213: 4704029603063455176
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_92"
+  - first:
+      213: 2991190573588334404
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_93"
+  - first:
+      213: -5871779215570764247
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_94"
+  - first:
+      213: -91155071857782876
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_95"
+  - first:
+      213: 6133297798392600169
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_96"
+  - first:
+      213: 6999070526457986932
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_97"
+  - first:
+      213: 8126413352072027782
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_98"
+  - first:
+      213: 1428801607677718791
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_99"
+  - first:
+      213: -6530640321799661792
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_100"
+  - first:
+      213: -5275764570469916627
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_101"
+  - first:
+      213: -8542222930639697657
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_102"
+  - first:
+      213: -3971193670873009078
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_103"
+  - first:
+      213: 5520193201466473146
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_104"
+  - first:
+      213: -4723675962156635288
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_105"
+  - first:
+      213: 1594534370183043039
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_106"
+  - first:
+      213: -7762560289408500355
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_107"
+  - first:
+      213: 3263221646657369573
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_108"
+  - first:
+      213: -6915404050953581694
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_109"
+  - first:
+      213: -3222413881614410045
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_110"
+  - first:
+      213: 3050649897610861496
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_111"
+  - first:
+      213: -1414977125969325859
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_112"
+  - first:
+      213: -2505759244286454016
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_113"
+  - first:
+      213: 4994555025082802710
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_114"
+  - first:
+      213: -1090270960081168467
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_115"
+  - first:
+      213: 1734031491995015202
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_116"
+  - first:
+      213: 6821604914419534913
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_117"
+  - first:
+      213: 2673180340667739465
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_118"
+  - first:
+      213: 6219432497788332159
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_119"
+  - first:
+      213: 1130886810879846236
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_120"
+  - first:
+      213: 5469600345580898211
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_121"
+  - first:
+      213: -7388447998285793521
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_122"
+  - first:
+      213: -5880300275833030024
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_123"
+  - first:
+      213: 8767507366775537735
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_124"
+  - first:
+      213: 7070388831526598309
+    second: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_125"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_0"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 653
+        width: 241
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9a86fce3535faa0800000000000000
+      internalID: -6127933174083704392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_1"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 652
+        width: 223
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b30ea2c2d9ff2220800000000000000
+      internalID: 2463462204799583153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_2"
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 653
+        width: 207
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2d45d253e947c50800000000000000
+      internalID: 6662123700018795248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_3"
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 653
+        width: 190
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f17d6c1142e0490800000000000000
+      internalID: -7778239847653236929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_4"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 649
+        width: 251
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c147c5fbd485b2360800000000000000
+      internalID: 7145902324699657244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_5"
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 430
+        width: 497
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb91c929c91e017f0800000000000000
+      internalID: -643766684123129412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_6"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 429
+        width: 311
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ad7601206bcb6b0800000000000000
+      internalID: -5279144543203632576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_7"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 429
+        width: 226
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0b70f46f19995b0800000000000000
+      internalID: -5361093394333978433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_8"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 116
+        width: 295
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862b4767c98ade4b0800000000000000
+      internalID: -5409482187446373784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_9"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 113
+        width: 337
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d976cc549113dc0800000000000000
+      internalID: -3661117234502722286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_10"
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 113
+        width: 242
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb716bb83a3acc0800000000000000
+      internalID: -3700934648317624382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_11"
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 114
+        width: 256
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28542bfe4bb3af140800000000000000
+      internalID: 4754178004944569730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_12"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 655
+        width: 243
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a336031c5c2f1434eaec0b1f2ac64e67
+      internalID: 5932862503032518786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zher_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 655
+        width: 235
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82abf241105f0e47bc5061b7a8aca61
+      internalID: 1513452283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zher_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 749
+        width: 212
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d95b92c70c4da42b88e761ab297f42
+      internalID: 578849556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4460b1bfb8835074fb01a77a4e25bac9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zher_0: 1513452283
+      zher_1: 578849556
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_0": -6127933174083704392
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_1": 2463462204799583153
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_10": -3700934648317624382
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_100": -6530640321799661792
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_101": -5275764570469916627
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_102": -8542222930639697657
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_103": -3971193670873009078
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_104": 5520193201466473146
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_105": -4723675962156635288
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_106": 1594534370183043039
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_107": -7762560289408500355
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_108": 3263221646657369573
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_109": -6915404050953581694
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_11": 4754178004944569730
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_110": -3222413881614410045
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_111": 3050649897610861496
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_112": -1414977125969325859
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_113": -2505759244286454016
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_114": 4994555025082802710
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_115": -1090270960081168467
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_116": 1734031491995015202
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_117": 6821604914419534913
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_118": 2673180340667739465
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_119": 6219432497788332159
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_12": 5932862503032518786
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_120": 1130886810879846236
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_121": 5469600345580898211
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_122": -7388447998285793521
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_123": -5880300275833030024
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_124": 8767507366775537735
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_125": 7070388831526598309
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_126": -1905823713
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_127": 1704155330
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_13": 6381924875051587382
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_14": -8903468565907920385
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_15": 8257128706863973728
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_16": -1989309715052374983
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_17": -4465820869991911522
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_18": -5891329950795025085
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_19": 8863857190736036784
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_2": 6662123700018795248
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_20": 505168511103262099
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_21": -4103245149984501722
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_22": 7099202209313817959
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_23": 716430328645413767
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_24": -515004727464175579
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_25": -7141464554683381016
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_26": 9080349576714528298
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_27": 2189825828346330558
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_28": 5236898474544810754
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_29": 3476746655028939120
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_3": -7778239847653236929
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_30": -6243973632731108378
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_31": -7001451359161438725
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_32": 4137584591931764459
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_33": 7389905509497900870
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_34": 3272542345305581350
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_35": -8867554884429339709
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_36": -675980939774040764
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_37": 6332735561166832822
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_38": -739310786851652375
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_39": 5415266410468978497
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_4": 7145902324699657244
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_40": 7400318082511739745
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_41": -7761274878175089348
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_42": 4065696065856256563
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_43": -3186732060482223460
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_44": 3078522626646159385
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_45": 2720034436211318602
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_46": -5168359287252710586
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_47": 7635396055232182920
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_48": 4634390077910635292
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_49": -6736162539367934652
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_5": -643766684123129412
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_50": 8493128837977896647
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_51": -6426846748859183416
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_52": 3466229440967041596
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_53": 6703349998416757644
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_54": -4505660579985359836
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_55": -3052595650616760613
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_56": 1027467996309007638
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_57": -6346490222730714938
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_58": 5280454654295773751
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_59": -5317904980520304863
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_6": -5279144543203632576
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_60": -1098133429532975664
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_61": -6103377871926891920
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_62": -2779361476752123046
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_63": 184111033450201800
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_64": 3762789873855020654
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_65": 565450194291644870
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_66": -7273169798023811118
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_67": 4538205697696628392
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_68": 6314532954610500643
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_69": -7668706301232380362
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_7": -5361093394333978433
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_70": -8836815343725533841
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_71": -5065346946393972061
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_72": -5430677116082324617
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_73": 5052267349139673705
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_74": -2403913161286719939
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_75": 2486069463411427506
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_76": -1997910052598640713
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_77": -4512198817130619207
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_78": -1147155931505446512
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_79": -2031056255825402896
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_8": -5409482187446373784
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_80": 7571709958843145160
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_81": -9099990044821973953
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_82": -1000400469886738858
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_83": -7967208090442532387
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_84": 5138340830358289597
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_85": 3476609451440547193
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_86": -7651590823754094191
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_87": 7980795508103822957
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_88": -8697864244930497001
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_89": -6717314903779671227
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_9": -3661117234502722286
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_90": -8408277759314693967
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_91": -6981511225245752714
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_92": 4704029603063455176
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_93": 2991190573588334404
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_94": -5871779215570764247
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_95": -91155071857782876
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_96": 6133297798392600169
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_97": 6999070526457986932
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_98": 8126413352072027782
+      "\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 ChatGPT 14 \u043E\u043A\u0442. 2026 \u0433., 20_22_47_99": 1428801607677718791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
