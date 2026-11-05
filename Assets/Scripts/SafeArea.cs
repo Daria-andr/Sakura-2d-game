@@ -32,7 +32,6 @@ public class SafeArea : MonoBehaviour
         panel.anchorMin = min;
         panel.anchorMax = max;
 
-        // Убираем старые отступы: границы панели совпадают с безопасной областью.
         panel.offsetMin = Vector2.zero;
         panel.offsetMax = Vector2.zero;
     }
