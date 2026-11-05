@@ -1,0 +1,11 @@
+AI Usage Log — Sakura
+
+AI Tool: ChatGPT (OpenAI)
+
+I used ChatGPT as an assistant during the development of my Unity 2D game, Sakura.
+
+ChatGPT helped me understand Unity concepts, troubleshoot errors, improve some C# scripts, organize my Game Design Document (GDD), and prepare project documentation.
+
+I tested the game in Unity, checked the controls and gameplay, and reviewed the results.
+
+AI was used as a development and learning assistant throughout the project.
