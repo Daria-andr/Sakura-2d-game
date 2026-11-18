@@ -1,15 +1,16 @@
 using UnityEngine;
 public class BossProjectile : MonoBehaviour
 {
-    public float speed=6f, lifetime=4f;
-    public int damage=1;
+    public float speed; public float lifetime;
+    public int damage;
     public Sprite[] flightFrames;
     public float animationFps=12f;
     Vector2 direction=Vector2.left;
     bool used;
     SpriteRenderer visual;
     float age;
-    void Awake() {visual=GetComponent<SpriteRenderer>();}
+    void Awake() {
+        LevelBalance.Apply(this);visual=GetComponent<SpriteRenderer>();}
     void Start() {Destroy(gameObject,lifetime);}
     public void SetDirection(int value) {SetVelocityDirection(value<0?Vector2.left:Vector2.right);}
     public void AimAt(Vector2 point) {SetVelocityDirection(point-(Vector2)transform.position);}

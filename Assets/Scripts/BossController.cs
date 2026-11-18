@@ -6,25 +6,25 @@ using UnityEngine.UI;
 public class BossController : MonoBehaviour
 {
     [Header("Health")]
-    [Min(1)] public int maxHealth = 8;
+    [Min(1)] public int maxHealth;
     public Slider healthBar;
-    [Min(0)] public int contactDamage = 1;
+    [Min(0)] public int contactDamage;
     [Header("Attack")]
     public GameObject projectilePrefab;
     public Transform shootPoint;
-    [Min(0.2f)] public float attackInterval = 2.5f;
-    [Min(0)] public float attackAnimationDelay = 0.3f;
+    [Min(0.2f)] public float attackInterval;
+    [Min(0)] public float attackAnimationDelay;
     [Header("Phase 2")]
-    [Range(0.1f, 0.9f)] public float phaseTwoHealthRatio = 0.5f;
-    [Min(0.2f)] public float phaseTwoAttackInterval = 1.25f;
-    [Min(1f)] public float phaseTwoProjectileSpeedMultiplier = 1.3f;
+    [Range(0.1f, 0.9f)] public float phaseTwoHealthRatio;
+    [Min(0.2f)] public float phaseTwoAttackInterval;
+    [Min(1f)] public float phaseTwoProjectileSpeedMultiplier;
     public Color phaseTwoTint = new Color(1f, 0.65f, 0.65f);
     public bool IsPhaseTwo { get; private set; }
     private Transform target;
     private SpriteRenderer sprite;
     private float AttackInterval => IsPhaseTwo ? phaseTwoAttackInterval : attackInterval;
     [Header("Death")]
-    [Min(0)] public float deathAnimationDuration = 0.8f;
+    [Min(0)] public float deathAnimationDuration;
 
     public int CurrentHealth { get; private set; }
     public bool IsDead { get; private set; }
@@ -34,8 +34,8 @@ public class BossController : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D[] colliders;
 
-    void Awake()
-    {
+    void Awake() {
+        LevelBalance.Apply(this);
         CurrentHealth = Mathf.Max(1, maxHealth);
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();

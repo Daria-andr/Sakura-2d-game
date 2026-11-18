@@ -7,8 +7,8 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 5f;
-    public float jumpForce = 12f;
+    public float moveSpeed;
+    public float jumpForce;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Bullet Settings")]
     public GameObject bulletPrefab;
     public Transform bulletPoint;
-    public float shootCooldown = 0.4f;
-    public float bulletSpawnDelay = 0.25f;
+    public float shootCooldown;
+    public float bulletSpawnDelay;
 
     [Header("Sound Settings")]
     public AudioClip shootSound;
@@ -43,8 +43,8 @@ public class PlayerMovement : MonoBehaviour
     private bool mobileJump;
     private bool mobileShoot;
 
-    void Awake()
-    {
+    void Awake() {
+        LevelBalance.Apply(this);
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();

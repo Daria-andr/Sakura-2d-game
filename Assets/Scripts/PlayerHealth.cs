@@ -10,8 +10,8 @@ public class PlayerHealth : MonoBehaviour
     [Range(0f, 1f)] public float damageVolume = 0.7f;
     private AudioSource damageAudio;
 
-    void Awake()
-    {
+    void Awake() {
+        LevelBalance.Apply(this);
         damageAudio = GetComponent<AudioSource>();
         if (damageAudio == null) damageAudio = gameObject.AddComponent<AudioSource>();
         damageAudio.playOnAwake = false;
@@ -21,9 +21,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (damageSound != null) damageAudio.PlayOneShot(damageSound, damageVolume);
     }
-    public int maxHealth = 3;
-    public float invulnerabilityTime = 2f;
-    public float deathDelay = 1.2f;
+    public int maxHealth;
+    public float invulnerabilityTime;
+    public float deathDelay;
 
     public TextMeshProUGUI healthText;
 

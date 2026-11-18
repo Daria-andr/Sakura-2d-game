@@ -3,10 +3,11 @@ using UnityEngine;
 
 public class Bomb : Hazard
 {
+    protected override void Awake() { base.Awake(); LevelBalance.Apply(this); }
     [Header("Bomb Settings")]
-    public float explosionRadius = 2f;
-    public float fuseDuration = 2f;
-    public float explosionDuration = 0.6f;
+    public float explosionRadius;
+    public float fuseDuration;
+    public float explosionDuration;
 
     private Animator animator;
     private Rigidbody2D rb;

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class HeartPickup : Hazard
 {
+    protected override void Awake() { base.Awake(); LevelBalance.Apply(this); }
+    public int healAmount;
     private bool collected = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -15,7 +17,7 @@ public class HeartPickup : Hazard
         if (player != null)
         {
             collected = true;
-            player.Heal(1);
+            player.Heal(healAmount);
             Destroy(gameObject);
         }
     }

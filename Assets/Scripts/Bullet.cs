@@ -5,12 +5,12 @@ using System.Collections;
 public class Bullet : MonoBehaviour
 {
     [Header("Bullet Settings")]
-    public float speed = 10f;
-    public float lifetime = 3f;
-    public int damage = 1;
+    public float speed;
+    public float lifetime;
+    public int damage;
 
     [Header("Hit Animation")]
-    public float hitAnimationDuration = 0.4f;
+    public float hitAnimationDuration;
 
     private int direction = 1;
     private bool hasHit = false;
@@ -19,8 +19,8 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D bulletCollider;
 
-    void Awake()
-    {
+    void Awake() {
+        LevelBalance.Apply(this);
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         bulletCollider = GetComponent<Collider2D>();

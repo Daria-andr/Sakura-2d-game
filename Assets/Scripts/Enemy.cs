@@ -4,11 +4,13 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-    public int maxHealth = 1;
-    public float moveSpeed = 2f;
-    public float moveDistance = 3f;
-    public float idleTime = 2f;
-    public float deathDelay = 0.8f;
+    void Awake() { LevelBalance.Apply(this); }
+    public int contactDamage;
+    public int maxHealth;
+    public float moveSpeed;
+    public float moveDistance;
+    public float idleTime;
+    public float deathDelay;
 
     private int currentHealth;
     private Vector3 startPosition;
@@ -91,7 +93,7 @@ IEnumerator ChangeDirection()
 
     public void TakeDamage(int damage)
     {
-        damage = 1;
+        if (damage <= 0) return;
         if (isDead) return;
 
         currentHealth -= damage;
@@ -143,7 +145,7 @@ void Die()
 
         if (player != null)
         {
-            player.TakeDamage(1);
+            player.TakeDamage(contactDamage);
         }
     }
 }

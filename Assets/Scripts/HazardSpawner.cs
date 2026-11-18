@@ -3,20 +3,22 @@ using UnityEngine;
 
 public class HazardSpawner : MonoBehaviour
 {
+    void Awake() { LevelBalance.Apply(this); }
     [Header("Falling Objects")]
     public Hazard[] hazards;
 
     [Header("Spawn Settings")]
-    public float spawnInterval = 2f;
-    public float spawnHeight = 7f;
-    public float minX = -7f;
-    public float maxX = 7f;
+    public float initialDelay;
+    public float spawnInterval;
+    public float spawnHeight;
+    public float minX;
+    public float maxX;
 
     void Start()
     {
         InvokeRepeating(
             nameof(SpawnHazard),
-            2f,
+            initialDelay,
             spawnInterval
         );
     }

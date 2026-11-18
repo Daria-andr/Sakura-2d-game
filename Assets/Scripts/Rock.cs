@@ -5,15 +5,16 @@ using System.Collections;
 public class Rock : Hazard
 {
     [Header("Rock Settings")]
-    public float breakAnimationDuration = 0.5f;
+    public float breakAnimationDuration;
 
     private Rigidbody2D rb;
     private Animator animator;
 
     private bool isBreaking = false;
 
-    void Awake()
-    {
+    protected override void Awake() {
+        base.Awake();
+        LevelBalance.Apply(this);
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 

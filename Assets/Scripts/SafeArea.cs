@@ -1,39 +1,65 @@
+
 using UnityEngine;
 
-// Основа — SafeArea из лекции 8–9.
 [RequireComponent(typeof(RectTransform))]
 public class SafeArea : MonoBehaviour
 {
-    RectTransform panel;
-    Rect last;
+    private RectTransform panel;
+    private Rect lastSafeArea;
+    private Vector2Int lastScreenSize;
 
     void Awake()
     {
         panel = GetComponent<RectTransform>();
-        Apply();
+        ApplySafeArea();
     }
 
     void Update()
     {
-        if (Screen.safeArea != last) Apply();
+        if (VisibleSafeArea() != lastSafeArea ||
+            Screen.width != lastScreenSize.x ||
+            Screen.height != lastScreenSize.y)
+        {
+            ApplySafeArea();
+        }
     }
 
-    void Apply()
+    static Rect VisibleSafeArea()
     {
-        if (Screen.width == 0 || Screen.height == 0) return;
+        Rect area = Screen.safeArea;
+        if (!Application.isMobilePlatform || area.width <= 0 || area.height <= 0 ||
+            area.xMin < 0 || area.yMin < 0 || area.xMax > Screen.width || area.yMax > Screen.height)
+            return new Rect(0, 0, Screen.width, Screen.height);
+        return area;
+    }
 
-        last = Screen.safeArea;
-        Vector2 min = last.position;
-        Vector2 max = last.position + last.size;
-        min.x /= Screen.width;
-        min.y /= Screen.height;
-        max.x /= Screen.width;
-        max.y /= Screen.height;
-        panel.anchorMin = min;
-        panel.anchorMax = max;
+    void ApplySafeArea()
+    {
+        if (Screen.width <= 0 || Screen.height <= 0)
+            return;
 
-        // Убираем старые отступы: границы панели совпадают с безопасной областью.
+        Rect safeArea = VisibleSafeArea();
+
+        lastSafeArea = safeArea;
+        lastScreenSize = new Vector2Int(
+            Screen.width,
+            Screen.height
+        );
+
+        Vector2 anchorMin = safeArea.position;
+        Vector2 anchorMax = safeArea.position + safeArea.size;
+
+        anchorMin.x /= Screen.width;
+        anchorMin.y /= Screen.height;
+
+        anchorMax.x /= Screen.width;
+        anchorMax.y /= Screen.height;
+
+        panel.anchorMin = anchorMin;
+        panel.anchorMax = anchorMax;
+
         panel.offsetMin = Vector2.zero;
         panel.offsetMax = Vector2.zero;
     }
 }
+
