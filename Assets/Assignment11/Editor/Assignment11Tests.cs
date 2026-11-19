@@ -8,8 +8,12 @@ using UnityEngine;
 public static class Assignment11Tests
 {
     static Assignment11Tests() { EditorApplication.playModeStateChanged += OnState; }
+    [MenuItem("Tools/Sakura/Run Assignment 11 Checks")]
     public static void Run()
     {
+        if (EditorApplication.isPlaying || EditorSceneManager.GetActiveScene().isDirty) { Debug.LogWarning("Stop Play Mode and save your scene before running checks."); return; }
+        SessionState.SetString("Assignment11ReturnScene", EditorSceneManager.GetActiveScene().path);
+        SessionState.SetBool("Assignment11Cleanup", true);
         AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
         EditorApplication.LockReloadAssemblies();
         SessionState.SetBool("Assignment11Tests",true);
@@ -18,6 +22,13 @@ public static class Assignment11Tests
     }
     static void OnState(PlayModeStateChange state)
     {
+        if (state == PlayModeStateChange.EnteredEditMode && SessionState.GetBool("Assignment11Cleanup", false)) {
+            SessionState.SetBool("Assignment11Cleanup", false);
+            EditorApplication.UnlockReloadAssemblies();
+            SaveSystem.TestPath = null; SaveSystem.Reload();
+            string path = SessionState.GetString("Assignment11ReturnScene", "");
+            if (!string.IsNullOrEmpty(path)) EditorSceneManager.OpenScene(path);
+        }
         if(!SessionState.GetBool("Assignment11Tests",false)) return;
         if(state == PlayModeStateChange.EnteredPlayMode)
             new GameObject("Assignment11 automated verification").AddComponent<Assignment11SmokeTests>();
@@ -39,3 +50,5 @@ public static class Assignment11Tests
         File.WriteAllText("Logs/Assignment11-restart.txt","PASS: progress, best score and volume survived a separate Unity process.\nProduction save: "+Path.Combine(Application.persistentDataPath,"sakura-progress.json"));
     }
 }
+
+

@@ -17,11 +17,16 @@ public class Assignment11SmokeTests : MonoBehaviour
         while(true) {
             object next;
             try { if(!routine.MoveNext()) break; next=routine.Current; }
-            catch(Exception e) { File.WriteAllText("Logs/Assignment11-tests.txt",report+"FAIL: "+e); UnityEditor.EditorApplication.Exit(1); yield break; }
+            catch(Exception e) { File.WriteAllText("Logs/Assignment11-tests.txt",report+"FAIL: "+e); Finish(1); yield break; }
             yield return next;
         }
         File.WriteAllText("Logs/Assignment11-tests.txt",report+"Verified "+count+" assertions in Unity Play Mode.\n");
-        UnityEditor.EditorApplication.Exit(0);
+        Finish(0);
+    }
+    static void Finish(int code)
+    {
+        if (Application.isBatchMode) UnityEditor.EditorApplication.Exit(code);
+        else UnityEditor.EditorApplication.isPlaying = false;
     }
     IEnumerator Run()
     {
@@ -103,3 +108,4 @@ public class Assignment11SmokeTests : MonoBehaviour
     }
 }
 #endif
+
