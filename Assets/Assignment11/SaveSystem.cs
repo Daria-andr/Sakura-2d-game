@@ -12,6 +12,9 @@ public class ProgressData
     public bool[] completed;
     public int[] bestScores;
     public float volume;
+    public int audioVersion;
+    public float musicVolume;
+    public float sfxVolume;
 }
 
 public static class SaveSystem
@@ -35,7 +38,7 @@ public static class SaveSystem
     static void InitializeStatics() { Data = null; Changed = null; LastError = null; }
     public static ProgressData Defaults() => new ProgressData {
         version = 1, highestUnlocked = 0, currentLevel = 0,
-        completed = new bool[3], bestScores = new int[3], volume = 1f
+        completed = new bool[3], bestScores = new int[3], volume = 1f, audioVersion = 1, musicVolume = .75f, sfxVolume = .85f
     };
     public static void EnsureLoaded() { if(Data == null) Reload(); }
     public static void Reload()
@@ -45,16 +48,22 @@ public static class SaveSystem
         try {
             var json = File.ReadAllText(FilePath);
             // Require every schema field: JsonUtility otherwise silently accepts missing members.
-            foreach(var key in new[] { "version", "highestUnlocked", "currentLevel", "completed", "bestScores", "volume" })
+            foreach(var key in new[] { "version", "highestUnlocked", "currentLevel", "completed", "bestScores" })
                 if(!json.Contains("\"" + key + "\"")) throw new FormatException("Incomplete save.");
             Data = JsonUtility.FromJson<ProgressData>(json);
+            if(Data != null) {
+                Data.volume = json.Contains("\"volume\"") ? CleanVolume(Data.volume,1f) : 1f;
+                Data.musicVolume = Data.audioVersion == 0 || !json.Contains("\"musicVolume\"") ? .75f : CleanVolume(Data.musicVolume,.75f);
+                Data.sfxVolume = Data.audioVersion == 0 || !json.Contains("\"sfxVolume\"") ? .85f : CleanVolume(Data.sfxVolume,.85f);
+                Data.audioVersion = 1;
+            }
             if(!Valid(Data)) throw new FormatException("Invalid or incompatible progress.");
         }
         catch(Exception e) when(e is IOException || e is UnauthorizedAccessException || e is ArgumentException || e is FormatException) {
             Data = Defaults();
             recovered = true;
         }
-        AudioListener.volume = Data.volume;
+        AudioListener.volume = 1f;
         if(recovered) Save();
         Changed?.Invoke();
     }
@@ -120,12 +129,20 @@ public static class SaveSystem
         EnsureLoaded();
         if(float.IsNaN(value) || float.IsInfinity(value)) return;
         Data.volume = Mathf.Clamp01(value);
-        AudioListener.volume = Data.volume;
+        AudioListener.volume = 1f;
+        Save(); Changed?.Invoke();
+    }
+    static float CleanVolume(float v, float fallback) => float.IsNaN(v) || float.IsInfinity(v) || v < 0 || v > 1 ? fallback : v;
+    public static void SetAudioVolume(bool music, float value) {
+        EnsureLoaded();
+        if(float.IsNaN(value) || float.IsInfinity(value)) return;
+        if(music) Data.musicVolume = Mathf.Clamp01(value); else Data.sfxVolume = Mathf.Clamp01(value);
         Save(); Changed?.Invoke();
     }
     public static void ResetProgress()
     {
-        Data = Defaults(); AudioListener.volume = Data.volume;
+        Data = Defaults(); AudioListener.volume = 1f;
         Save(); Changed?.Invoke();
     }
 }
+
