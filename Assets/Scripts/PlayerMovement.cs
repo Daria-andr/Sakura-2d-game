@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     private float nextShootTime;
 
     private bool isGrounded;
+    private bool groundObserved;
     private bool facingRight = true;
 
     // Для мобильного контроллера позже
@@ -58,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
         audioSource.playOnAwake = false;
         audioSource.spatialBlend = 0f;
+        if(SakuraAudio.Instance) audioSource.outputAudioMixerGroup = SakuraAudio.Instance.sfxGroup;
     }
 
     void Update()
@@ -101,12 +103,16 @@ public class PlayerMovement : MonoBehaviour
         );
 
         // Проверка земли
+        bool previouslyGrounded = isGrounded;
         isGrounded = groundCheck != null &&
             Physics2D.OverlapCircle(
                 groundCheck.position,
                 groundRadius,
                 groundLayer
             );
+
+        if (groundObserved && !previouslyGrounded && isGrounded && rb.linearVelocity.y <= .1f) SakuraAudio.Play(SakuraAudio.Cue.Land);
+        groundObserved = true;
 
         // Поворот персонажа
         if (moveInput > 0.1f && !facingRight)
@@ -139,6 +145,7 @@ public class PlayerMovement : MonoBehaviour
             );
         }
 
+        if ((keyboardJump || mobileJump) && isGrounded) SakuraAudio.Play(SakuraAudio.Cue.Jump);
         mobileJump = false;
 
         // Стрельба
@@ -224,12 +231,7 @@ public class PlayerMovement : MonoBehaviour
             bulletScript.SetDirection(direction);
         }
 
-        if (shootSound != null)
-        {
-            audioSource.PlayOneShot(
-                shootSound, shootVolume
-            );
-        }
+        SakuraAudio.Play(SakuraAudio.Cue.Shot);
     }
 
 
@@ -275,4 +277,5 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 }
+
 

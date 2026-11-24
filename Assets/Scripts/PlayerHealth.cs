@@ -16,10 +16,11 @@ public class PlayerHealth : MonoBehaviour
         if (damageAudio == null) damageAudio = gameObject.AddComponent<AudioSource>();
         damageAudio.playOnAwake = false;
         damageAudio.spatialBlend = 0f;
+        if(SakuraAudio.Instance) damageAudio.outputAudioMixerGroup = SakuraAudio.Instance.sfxGroup;
     }
     void PlayDamageSound()
     {
-        if (damageSound != null) damageAudio.PlayOneShot(damageSound, damageVolume);
+        SakuraAudio.Play(SakuraAudio.Cue.Hit);
     }
     public int maxHealth;
     public float invulnerabilityTime;
@@ -144,6 +145,7 @@ IEnumerator Invulnerability()
         if (isDead) return;
 
         isDead = true;
+        SakuraAudio.Play(SakuraAudio.Cue.Death);
         StopAllCoroutines();
 
         if (spriteRenderer != null)

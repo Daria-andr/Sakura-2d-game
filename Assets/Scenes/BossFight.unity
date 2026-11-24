@@ -522,6 +522,7 @@ GameObject:
   - component: {fileID: 57945353}
   - component: {fileID: 57945352}
   - component: {fileID: 57945351}
+  - component: {fileID: 57945354}
   m_Layer: 5
   m_Name: PauseButton
   m_TagString: Untagged
@@ -643,6 +644,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 57945349}
   m_CullTransparentMesh: 1
+--- !u!114 &57945354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57945349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &98709236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,7 +1674,7 @@ MonoBehaviour:
   bulletPoint: {fileID: 1226448648}
   shootCooldown: 0.4
   bulletSpawnDelay: 0.25
-  shootSound: {fileID: 8300000, guid: 390215cb0ae6afd49a2dec25995db61f, type: 3}
+  shootSound: {fileID: 8300000, guid: 067c7c401f0761944926b5b2e49a9dfd, type: 3}
   shootVolume: 0.7
 --- !u!114 &455613255
 MonoBehaviour:
@@ -1675,7 +1688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81cc54afeb8b1b418ad3bfa7fef3da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  damageSound: {fileID: 8300000, guid: afa800d54890b6b4f806db96b8cd0ce0, type: 3}
+  damageSound: {fileID: 8300000, guid: aa088bc9e58df2b449d18f7ed7910341, type: 3}
   damageVolume: 0.7
   maxHealth: 3
   invulnerabilityTime: 1.5
@@ -1713,7 +1726,7 @@ AudioSource:
   m_GameObject: {fileID: 455613249}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -9179585791093489930, guid: 6d44a58c9136c9a4797e95e3429a2b1e, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -1968,7 +1981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   isOpen: 0
-  portalSound: {fileID: 8300000, guid: a74f8e3feac97db48b579b9f277add96, type: 3}
+  portalSound: {fileID: 8300000, guid: e73b0a299cf319b4a89c209c57191781, type: 3}
   portalVolume: 0.7
 --- !u!61 &459288605
 BoxCollider2D:
@@ -2487,6 +2500,7 @@ GameObject:
   - component: {fileID: 565644487}
   - component: {fileID: 565644486}
   - component: {fileID: 565644489}
+  - component: {fileID: 565644490}
   m_Layer: 5
   m_Name: JumpButton
   m_TagString: Untagged
@@ -2612,6 +2626,18 @@ MonoBehaviour:
   controlType: 1
   handle: {fileID: 0}
   movementRange: 60
+--- !u!114 &565644490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565644484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &571836716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3731,6 +3757,7 @@ GameObject:
   - component: {fileID: 825359607}
   - component: {fileID: 825359606}
   - component: {fileID: 825359605}
+  - component: {fileID: 825359608}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -3852,6 +3879,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825359603}
   m_CullTransparentMesh: 1
+--- !u!114 &825359608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825359603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &850366394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,6 +4759,7 @@ GameObject:
   - component: {fileID: 1022642676}
   - component: {fileID: 1022642675}
   - component: {fileID: 1022642674}
+  - component: {fileID: 1022642677}
   m_Layer: 5
   m_Name: ContinueOrRestart
   m_TagString: Untagged
@@ -4829,6 +4869,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022642672}
   m_CullTransparentMesh: 1
+--- !u!114 &1022642677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022642672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1068438111
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,6 +5068,7 @@ GameObject:
   - component: {fileID: 1159729674}
   - component: {fileID: 1159729673}
   - component: {fileID: 1159729672}
+  - component: {fileID: 1159729675}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -5137,6 +5190,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159729670}
   m_CullTransparentMesh: 1
+--- !u!114 &1159729675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159729670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1191166314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5890,6 +5955,7 @@ GameObject:
   - component: {fileID: 1300092791}
   - component: {fileID: 1300092790}
   - component: {fileID: 1300092789}
+  - component: {fileID: 1300092792}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -5999,6 +6065,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300092787}
   m_CullTransparentMesh: 1
+--- !u!114 &1300092792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300092787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1318519589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,6 +6168,7 @@ GameObject:
   - component: {fileID: 1355380837}
   - component: {fileID: 1355380836}
   - component: {fileID: 1355380835}
+  - component: {fileID: 1355380838}
   m_Layer: 5
   m_Name: ContinueOrRestart
   m_TagString: Untagged
@@ -6199,6 +6278,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355380833}
   m_CullTransparentMesh: 1
+--- !u!114 &1355380838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355380833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1384094541
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,6 +6724,7 @@ GameObject:
   - component: {fileID: 1502846401}
   - component: {fileID: 1502846400}
   - component: {fileID: 1502846399}
+  - component: {fileID: 1502846402}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -6754,6 +6846,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502846397}
   m_CullTransparentMesh: 1
+--- !u!114 &1502846402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502846397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1504235649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7406,6 +7510,7 @@ GameObject:
   - component: {fileID: 1706854285}
   - component: {fileID: 1706854284}
   - component: {fileID: 1706854283}
+  - component: {fileID: 1706854286}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -7515,6 +7620,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706854281}
   m_CullTransparentMesh: 1
+--- !u!114 &1706854286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706854281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1761831293
 GameObject:
   m_ObjectHideFlags: 0
@@ -8034,6 +8151,7 @@ GameObject:
   - component: {fileID: 1817951678}
   - component: {fileID: 1817951677}
   - component: {fileID: 1817951680}
+  - component: {fileID: 1817951681}
   m_Layer: 5
   m_Name: ShootButton
   m_TagString: Untagged
@@ -8159,6 +8277,18 @@ MonoBehaviour:
   controlType: 2
   handle: {fileID: 0}
   movementRange: 60
+--- !u!114 &1817951681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817951675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1857860993
 GameObject:
   m_ObjectHideFlags: 0

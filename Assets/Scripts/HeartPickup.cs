@@ -17,6 +17,7 @@ public class HeartPickup : Hazard
         if (player != null)
         {
             collected = true;
+            SakuraAudio.Play(SakuraAudio.Cue.Pickup);
             player.Heal(healAmount);
             Destroy(gameObject);
         }

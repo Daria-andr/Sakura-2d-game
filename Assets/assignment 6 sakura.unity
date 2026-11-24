@@ -824,6 +824,7 @@ GameObject:
   - component: {fileID: 170270998}
   - component: {fileID: 170270997}
   - component: {fileID: 170270996}
+  - component: {fileID: 170270999}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -945,6 +946,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170270994}
   m_CullTransparentMesh: 1
+--- !u!114 &170270999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170270994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &181787796
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,13 +991,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
   maxHealth: 8
+  healthBar: {fileID: 0}
   contactDamage: 1
-  leftPoint: {fileID: 257141859}
-  rightPoint: {fileID: 982284902}
-  moveSpeed: 2
   projectilePrefab: {fileID: 9147247779632587085, guid: b36bb915aad022f46a30c04cb87eed06, type: 3}
   shootPoint: {fileID: 1667224135}
   attackInterval: 2.5
+  attackAnimationDelay: 0
+  phaseTwoHealthRatio: 0
+  phaseTwoAttackInterval: 0
+  phaseTwoProjectileSpeedMultiplier: 0
+  phaseTwoTint: {r: 1, g: 0.65, b: 0.65, a: 1}
+  deathAnimationDuration: 0
 --- !u!61 &181787798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2003,6 +2020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 3
@@ -2352,7 +2370,7 @@ MonoBehaviour:
   bulletPoint: {fileID: 1226448648}
   shootCooldown: 0.4
   bulletSpawnDelay: 0.25
-  shootSound: {fileID: 8300000, guid: 390215cb0ae6afd49a2dec25995db61f, type: 3}
+  shootSound: {fileID: 8300000, guid: 067c7c401f0761944926b5b2e49a9dfd, type: 3}
   shootVolume: 0.7
 --- !u!114 &455613255
 MonoBehaviour:
@@ -2366,13 +2384,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81cc54afeb8b1b418ad3bfa7fef3da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  damageSound: {fileID: 8300000, guid: aa088bc9e58df2b449d18f7ed7910341, type: 3}
+  damageVolume: 0.7
   maxHealth: 3
   invulnerabilityTime: 1.5
   deathDelay: 1.2
   healthText: {fileID: 0}
   heartUI: {fileID: 1240348375}
-  damageSound: {fileID: 8300000, guid: afa800d54890b6b4f806db96b8cd0ce0, type: 3}
-  damageVolume: 0.7
 --- !u!95 &455613256
 Animator:
   serializedVersion: 7
@@ -2404,7 +2422,7 @@ AudioSource:
   m_GameObject: {fileID: 455613249}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -9179585791093489930, guid: 6d44a58c9136c9a4797e95e3429a2b1e, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -2622,7 +2640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   isOpen: 0
-  portalSound: {fileID: 8300000, guid: a74f8e3feac97db48b579b9f277add96, type: 3}
+  portalSound: {fileID: 8300000, guid: e73b0a299cf319b4a89c209c57191781, type: 3}
   portalVolume: 0.7
 --- !u!61 &459288605
 BoxCollider2D:
@@ -3106,6 +3124,7 @@ MonoBehaviour:
   maxX: 55
   minY: -4
   maxY: 45
+  autoBounds: 1
 --- !u!1 &588771380
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,7 +6097,6 @@ MonoBehaviour:
   - {fileID: 625441976}
   - {fileID: 965554786}
   - {fileID: 1262310405}
-  damageAnimationDuration: 0.5
 --- !u!1 &1262310402
 GameObject:
   m_ObjectHideFlags: 0
@@ -6453,6 +6471,7 @@ MonoBehaviour:
   - {fileID: 1996557937904814869, guid: 4481ff8c299001c40b4d0ec131de6c8d, type: 3}
   - {fileID: 2041089336041897116, guid: dea084ec5b214db448a50744120ab693, type: 3}
   - {fileID: 3238485257276798056, guid: 5e28db5489df40b4d82c1b3670a2ca3a, type: 3}
+  initialDelay: 0
   spawnInterval: 2
   spawnHeight: 7
   minX: -7
@@ -7081,6 +7100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 1
@@ -8400,6 +8420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 3
@@ -8482,6 +8503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 1
@@ -9146,6 +9168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 3
@@ -9311,6 +9334,7 @@ GameObject:
   - component: {fileID: 1837339806}
   - component: {fileID: 1837339805}
   - component: {fileID: 1837339804}
+  - component: {fileID: 1837339807}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -9432,6 +9456,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837339802}
   m_CullTransparentMesh: 1
+--- !u!114 &1837339807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837339802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &1866936584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9646,8 +9682,10 @@ MonoBehaviour:
   portal: {fileID: 459288604}
   boss: {fileID: 0}
   enemyText: {fileID: 794580545}
+  scoreText: {fileID: 0}
   gameOverPanel: {fileID: 854951008}
   winPanel: {fileID: 762086402}
+  pausePanel: {fileID: 0}
 --- !u!1 &1911283036
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,6 +10481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad03693a908e5a43a9ce93f3d209e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  contactDamage: 0
   maxHealth: 1
   moveSpeed: 2
   moveDistance: 3

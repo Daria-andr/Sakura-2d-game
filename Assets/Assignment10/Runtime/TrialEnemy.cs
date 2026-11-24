@@ -208,6 +208,8 @@ namespace Sakura.Trial
 
         protected void Enter(string state, string animationState, bool telegraph = false)
         {
+            if (telegraph) SakuraAudio.Play(SakuraAudio.Cue.Windup);
+            if (animationState == "Attack") SakuraAudio.Play(SakuraAudio.Cue.Attack);
             CurrentState = state;
             Elapsed = 0;
             winding = telegraph;
@@ -251,10 +253,12 @@ namespace Sakura.Trial
             int amount = bullet.damage;
             bullet.gameObject.SetActive(false);
             Destroy(bullet.gameObject);
+            SakuraAudio.Play(SakuraAudio.Cue.Hit);
             remainingHealth -= Mathf.Max(0, amount);
             flashEnd = Time.time + hitFlashSeconds;
             if (remainingHealth > 0) return;
             IsDefeated = true;
+            SakuraAudio.Play(SakuraAudio.Cue.Death);
             GetComponent<BoxCollider2D>().enabled = false;
             Enter("Defeated", animator && animator.HasState(0, Animator.StringToHash("Base Layer.Defeat")) ? "Defeat" : "Recover");
             if (Visual) Visual.color = defaultColor;

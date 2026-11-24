@@ -30,6 +30,8 @@ public class BossController : MonoBehaviour
     public bool IsDead { get; private set; }
     private float nextAttackTime;
     private bool attacking;
+    private bool contactAttacking;
+    private float contactCooldown;
     private Animator animator;
     private Rigidbody2D rb;
     private Collider2D[] colliders;
@@ -82,10 +84,12 @@ public class BossController : MonoBehaviour
     IEnumerator Attack()
     {
         attacking = true;
+        SakuraAudio.Play(SakuraAudio.Cue.Windup);
         Trigger("Attack");
-        yield return new WaitForSeconds(Mathf.Max(0, attackAnimationDelay));
+        yield return new WaitForSeconds(Mathf.Max(.45f, attackAnimationDelay));
         if (!IsDead && projectilePrefab != null && shootPoint != null)
         {
+            SakuraAudio.Play(SakuraAudio.Cue.Attack);
             var projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
             if (projectile.TryGetComponent<BossProjectile>(out var shot))
             {
@@ -104,6 +108,7 @@ public class BossController : MonoBehaviour
     public void TakeDamage(int amount)
     {
         if (IsDead || amount <= 0) return;
+        SakuraAudio.Play(SakuraAudio.Cue.Hit);
         CurrentHealth = Mathf.Max(0, CurrentHealth - amount);
         if (healthBar != null) healthBar.value = CurrentHealth;
         if (CurrentHealth > 0)
@@ -122,6 +127,7 @@ public class BossController : MonoBehaviour
         }
 
         IsDead = true;
+        SakuraAudio.Play(SakuraAudio.Cue.Death);
         StopAllCoroutines();
         attacking = false;
         if (rb != null)
@@ -158,10 +164,20 @@ public class BossController : MonoBehaviour
         attacking = false;
     }
 
+    IEnumerator ContactAttack(PlayerHealth health) {
+        contactAttacking = true;
+        SakuraAudio.Play(SakuraAudio.Cue.Windup);
+        yield return new WaitForSeconds(.45f);
+        if(!IsDead && health && health.TryGetComponent<Collider2D>(out var body))
+            foreach(var col in colliders) if(col && col.IsTouching(body)) {
+                SakuraAudio.Play(SakuraAudio.Cue.Attack); health.TakeDamage(contactDamage); break;
+            }
+        contactAttacking = false; contactCooldown = Time.time + .8f;
+    }
     void OnCollisionStay2D(Collision2D collision)
     {
         if (IsDead) return;
         var health = collision.gameObject.GetComponentInParent<PlayerHealth>();
-        if (health != null) health.TakeDamage(contactDamage);
+        if (health != null && !contactAttacking && Time.time >= contactCooldown) StartCoroutine(ContactAttack(health));
     }
 }

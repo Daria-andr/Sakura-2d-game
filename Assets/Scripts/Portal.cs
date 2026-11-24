@@ -22,6 +22,7 @@ public class Portal : MonoBehaviour
         if (portalAudio == null) portalAudio = gameObject.AddComponent<AudioSource>();
         portalAudio.playOnAwake = false;
         portalAudio.spatialBlend = 0f;
+        if(SakuraAudio.Instance) portalAudio.outputAudioMixerGroup = SakuraAudio.Instance.sfxGroup;
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -49,10 +50,10 @@ public class Portal : MonoBehaviour
         if (playerEntered) return;
 
         isOpen = true;
-        if (!openingSoundPlayed && portalSound != null)
+        if (!openingSoundPlayed)
         {
             openingSoundPlayed = true;
-            portalAudio.PlayOneShot(portalSound, portalVolume);
+            SakuraAudio.Play(SakuraAudio.Cue.Portal);
         }
 
         if (animator != null)

@@ -18,6 +18,8 @@ public class Enemy : MonoBehaviour
     private bool movingRight = true;
     private bool isWaiting = false;
     private bool isDead = false;
+    private bool contactAttacking;
+    private float contactCooldown;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -96,6 +98,7 @@ IEnumerator ChangeDirection()
         if (damage <= 0) return;
         if (isDead) return;
 
+        SakuraAudio.Play(SakuraAudio.Cue.Hit);
         currentHealth -= damage;
 
         if (currentHealth <= 0)
@@ -109,6 +112,7 @@ void Die()
     if (isDead) return;
 
     isDead = true;
+    SakuraAudio.Play(SakuraAudio.Cue.Death);
     StopAllCoroutines();
 
     rb.linearVelocity = Vector2.zero;
@@ -136,6 +140,16 @@ void Die()
         Destroy(gameObject);
     }
 
+    IEnumerator ContactAttack(PlayerHealth player) {
+        contactAttacking = true;
+        SakuraAudio.Play(SakuraAudio.Cue.Windup);
+        yield return new WaitForSeconds(.45f);
+        if(!isDead && player && enemyCollider && player.TryGetComponent<Collider2D>(out var body) && enemyCollider.IsTouching(body)) {
+            SakuraAudio.Play(SakuraAudio.Cue.Attack);
+            player.TakeDamage(contactDamage);
+        }
+        contactCooldown = Time.time + .8f; contactAttacking = false;
+    }
     void OnCollisionStay2D(Collision2D collision)
     {
         if (isDead) return;
@@ -143,9 +157,7 @@ void Die()
         PlayerHealth player =
             collision.gameObject.GetComponent<PlayerHealth>();
 
-        if (player != null)
-        {
-            player.TakeDamage(contactDamage);
-        }
+        if (player != null && !contactAttacking && Time.time >= contactCooldown)
+            StartCoroutine(ContactAttack(player));
     }
 }

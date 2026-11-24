@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 2331295774130130075}
   - component: {fileID: 5325292714130098317}
   - component: {fileID: 3851464064890545544}
+  - component: {fileID: 369242102623448297}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -348,6 +349,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &369242102623448297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826216736513976622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &5476523072962644629
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +510,7 @@ GameObject:
   - component: {fileID: 7040504643249239484}
   - component: {fileID: 1185008115887647785}
   - component: {fileID: 2138931996569297741}
+  - component: {fileID: 6722962580999418401}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -618,6 +632,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6722962580999418401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544220341978678943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e6fe5fe6bfab4f93a30ca96b35c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SakuraButtonSound
 --- !u!1 &7034700952710626887
 GameObject:
   m_ObjectHideFlags: 0

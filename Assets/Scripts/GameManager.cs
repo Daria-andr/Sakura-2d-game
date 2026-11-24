@@ -54,6 +54,7 @@ public class GameManager : MonoBehaviour
         if (paused) SaveSystem.Save();
         if (pausePanel != null) pausePanel.SetActive(paused);
         Time.timeScale = paused ? 0f : 1f;
+        if(SakuraAudio.Instance) SakuraAudio.Instance.SetPaused(paused);
 
         // После паузы не должны оставаться удержанные команды движения.
         if (player != null) player.ClearInput();
@@ -94,6 +95,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         if (levelFinished) return;
+        SakuraAudio.Play(SakuraAudio.Cue.Defeat);
         EndLevel(gameOverPanel);
     }
 
@@ -101,6 +103,7 @@ public class GameManager : MonoBehaviour
     {
         if (levelFinished) return;
         if (LevelContext.Current != null) SaveSystem.Complete(LevelContext.Current.levelIndex, score);
+        SakuraAudio.Play(SakuraAudio.Cue.Victory);
         EndLevel(winPanel);
     }
 
