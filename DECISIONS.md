@@ -38,3 +38,11 @@ See Logs/Assignment11-tests.txt and Logs/Assignment11-restart.txt for observed r
 ## Android and video
 The four campaign scenes are enabled in build settings. Tools > Sakura > Build Assignment 11 APK builds Builds/Android/Sakura-Assignment11.apk once Android Build Support, SDK/NDK Tools and OpenJDK are installed for Unity 6000.6.2f1. This installation currently lacks Android Build Support, so no APK is claimed.
 A screen-recording checklist is provided in DEMONSTRATION.md. No video is claimed unless a recording is supplied separately.
+
+
+### Assignment 12 — Sound Pass (24–25 November 2026)
+- Request: integrate mixer buses, sound events, enemy warnings, two music loops, pause snapshots and saved volume controls into the existing Sakura project.
+- Found: normal enemies and boss contact damage had no preparation; added a 0.45-second warning and a contact recheck, and connected the existing Assignment 10 preparation states.
+- Corrected: repeated Play Mode testing exposed an unreliable Master slider callback; all three sliders now use explicit enable/disable listener binding, with the former persistent Master callback removed.
+- Corrected: audio fields must be optional when reading old saves; invalid/missing audio values now default without resetting valid progress. Final Play Mode suite passed 37 assertions; a separate Unity process verified persisted settings and score.
+- Review required from the student: listen to the original synthesized audio, test on a physical phone and record the English defense. The first APK attempt failed because Android Tools rejected the Cyrillic project path; the short-path retry reached Gradle but failed with a loopback connection error and also reported missing Player scripts. No working APK is claimed.
